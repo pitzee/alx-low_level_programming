@@ -1,14 +1,11 @@
 #include <stdio.h>
 /**
- * main - prints string to the standard error.
+ * main - print string to the standard error
  *
- *Return: Always 1
+ * Return: Always retutn 1
  */
-
 int main(void)
 {
-	fprintf(stderr, "and that piece of art is useful\" - Dora Korpar");
-
-	return (1);
-
+	fprintf(stderr, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
+	return (0);
 }
