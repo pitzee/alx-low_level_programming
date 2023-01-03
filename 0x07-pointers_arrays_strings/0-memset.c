@@ -1,7 +1,10 @@
 #include "main.h"
-/**
-*
-* memset - fills memory with a constant byte.
+/*
+*memset : fills memory with constant fills
+*@s : source string
+*@b : the content byte for filling
+*@n : length of buffer
+*Return : new string.
 **/
 char *_memset(char *s, char b, unsigned int n)
 {
@@ -12,5 +15,5 @@ char *_memset(char *s, char b, unsigned int n)
 		*(s + i) = b;
 		i++;
 	}
-	return(s);
+	return (s);
 }
