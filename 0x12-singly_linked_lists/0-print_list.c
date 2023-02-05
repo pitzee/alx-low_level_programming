@@ -18,12 +18,11 @@ size_t print_list(const list_t *h)
 	{
 	printf("[0] (nil)\n");
 	}
-	struct list_s *ptr = h;
 
-	while (ptr != NULL)
+	while (h != NULL)
 	{
-	printf("[%u] %s\n", ptr->len, ptr->str);
-	ptr = ptr->next;
+	printf("[%u] %s\n", h->len, h->str);
+	h = h->next;
 	s++;
 	}
 
