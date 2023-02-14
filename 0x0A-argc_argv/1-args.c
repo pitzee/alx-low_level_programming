@@ -12,15 +12,15 @@
 
 
 
-int main(int argc, char *argv[])
+int main(int argc, char *argv[]__attribute__((unused)))
 
 {
-
-(void) argv; /*Ignore argv*/
-
-	printf("%d\n", argc - 1);
-
-
+	
+	int i;
+	for(i = 0; i < argc; i++)
+	{
+	printf("%d\n", argc);
+	}
 
 	return (0);
 }
