@@ -4,5 +4,5 @@ NAME = school
 CC = gcc
 
 
-all:
+all: $(OBJ)
 	$(CC) $(SRC) -O $(NAME)
