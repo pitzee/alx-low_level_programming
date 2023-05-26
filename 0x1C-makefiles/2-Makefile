@@ -6,8 +6,3 @@ CC = gcc
 
 all:
 	$(CC) $(SRC) -O $(NAME)
-
-clean: 
-	rm -rf func
-	rm -rf *.exe
-	rm -rf *.o
